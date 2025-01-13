@@ -2,7 +2,7 @@
 # Safety-Violation Detection System using YOLOv8
 
 ## Overview
-This project utilizes a custom-trained YOLOv8 model for detecting personal protective equipment (PPE) violations in video frames. The system identifies violations such as missing hardhats, missing safety vests, and other safety gear in construction or industrial environments. It logs violations in a JSON file and displays results through a Streamlit dashboard.
+This project focuses on detecting Personal Protective Equipment (PPE) violations in industrial environments using a custom-trained YOLOv8 model. The system identifies safety gear violations such as missing hardhats, safety vests, and other protective equipment in real-time video frames. This system was developed as part of a project with Indian Oil Corporation Limited, Guwahati, to enhance workplace safety by automating the monitoring of PPE compliance.It logs violations in a JSON file and displays results through a Streamlit dashboard.
 
 The system processes a video, detects relevant objects, and logs violations based on the detection of specific objects in the frames. The video is annotated with bounding boxes and labels to visually highlight the detected objects. Additionally, screenshots of frames with violations are saved.
 
